@@ -1,0 +1,79 @@
+/* Ensure entire page centers the form */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container holding the form */
+.card-form-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* All form headings — like Merchant Login, Customer Details */
+.card-form-container h2,
+.card-form-container h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #000000; /* Force black color for headings */
+}
+
+/* Form input fields */
+.card-form-container input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+/* Focus effect on input */
+.card-form-container input:focus {
+    border-color: #2a5298;
+    box-shadow: 0 0 5px rgba(42, 82, 152, 0.5);
+    outline: none;
+}
+
+/* Submit button */
+.card-form-container button {
+    background: #1e3c72;
+    color: white;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* Button hover effect */
+.card-form-container button:hover {
+    background: #16325c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(to right, #e0f2ff, #f0faff);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

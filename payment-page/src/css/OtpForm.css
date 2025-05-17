@@ -1,0 +1,47 @@
+/* src/css/OtpForm.css */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    background-color: #f5faff;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+
+}
+
+.otp-input {
+    width: 77%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+input, button {
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+button:hover {
+    transform: scale(1.03);
+}
