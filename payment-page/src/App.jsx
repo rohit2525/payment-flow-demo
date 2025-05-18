@@ -16,7 +16,7 @@ function App() {
 
     const handleLandingSuccess = async (data) => {
         try {
-            const response = await fetch('http://localhost:3001/api/validate-merchant', {
+            const response = await fetch('https://payment-flow-demo.onrender.com/api/validate-merchant', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({username: data.merchantUsername, password: data.merchantPassword}),
@@ -51,7 +51,7 @@ function App() {
         };
 
         try {
-            const response = await fetch('http://localhost:3001/api/validate-otp', {
+            const response = await fetch('https://payment-flow-demo.onrender.com/api/validate-otp', {
                 method: 'POST',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify(payload),

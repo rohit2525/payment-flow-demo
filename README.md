@@ -1,39 +1,47 @@
 # ?? Payment Flow Demo
 
-A mini React + Node.js payment demo with merchant auth, card form, OTP validation, and success/failure flow.
+A complete demo application that simulates a secure online payment flow, built with **React** (frontend) and **Node.js + Express** (backend).  
+It covers a typical customer checkout process including:
 
-## ?? Folder Structure
-
-
-## ?? Tech Stack
-
-- React + Material UI
-- Node.js + Express
-- CSS-only styling (no DB, no real API)
-
-## ?? Getting Started
-
-### Frontend
-
-```bash
-cd payment-page
-npm install
-npm run dev
-
-
-cd customer-backend
-npm install
-node index.js
-
-
-
+- Merchant authentication
+- Customer data capture
+- Card details entry with brand detection
+- OTP validation (with attempt limits)
+- Dynamic success/failure routing
 
 ---
 
-### ?? Step 5: Commit and push to GitHub
+## ??? Tech Stack
 
-#### ? First commit:
+| Layer      | Technology         |
+|------------|--------------------|
+| Frontend   | React, Vite, Material UI, CSS |
+| Backend    | Node.js, Express |
+| Styling    | CSS Modules (custom) |
+| Utilities  | card-validator (for card validation) |
+| Icons/Logos| CDN or assets |
+
+---
+
+## ??? Folder Structure
+
+---
+
+## ?? Getting Started
+
+### ? Prerequisites
+
+* Node.js (v18+ recommended)
+* npm or yarn
+* Git (to clone the repo)
+
+---
+
+### ?? Setup Instructions
+
+#### ?? Clone the repository
 
 ```bash
-git add .
-git commit -m "Initial commit: payment flow project"
+git clone https://github.com/rohit2525/payment-flow-demo.git
+cd payment-flow-demo
+```
